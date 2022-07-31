@@ -1,0 +1,17 @@
+.weather-details-title {
+  margin-bottom: 30px;
+}
+
+.weather-details-list {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 40px;
+}
+
+.weather-details-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-details-item + .weather-details-item {
+  margin-top: 20px;
+}

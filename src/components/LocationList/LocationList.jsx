@@ -1,7 +1,9 @@
+import "./LocationList.css";
+
 const LocationList = ({ locations }) => {
   return (
     <div className="searched-locations">
-      <h4 className="searched-locations-title">Searched locations</h4>
+      <h4 className="searched-locations-title">Latest searched locations</h4>
 
       <ul className="location-list">
         {locations.map((location, index) => (

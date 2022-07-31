@@ -1,0 +1,13 @@
+.searched-locations {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.searched-locations-title {
+  margin-bottom: 30px;
+}
+
+.location-item + .location-item {
+  margin-top: 20px;
+}

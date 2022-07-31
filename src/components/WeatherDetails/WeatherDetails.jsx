@@ -1,3 +1,5 @@
+import "./WeatherDetails.css";
+
 const WeatherDetails = ({ cloudy, humidity, windSpeed }) => {
   return (
     <div className="weather-details">
